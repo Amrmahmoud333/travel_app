@@ -56,6 +56,15 @@ class HomeScreen extends StatelessWidget {
                   ],
                 ),
               ),
+              bottomNavigationBar: BottomNavigationBar(
+                showSelectedLabels: false,
+                showUnselectedLabels: false,
+                currentIndex: cubit.currentIndex,
+                onTap: (index) {
+                  cubit.changeBottomNavBar(index);
+                },
+                items: cubit.bottomItems,
+              ),
             );
           }),
     );
