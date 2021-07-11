@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'activities_model.dart';
 
 class Destination {
