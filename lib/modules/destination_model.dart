@@ -12,60 +12,57 @@ class Destination {
 }
 
 List<Activity> activities = [
-  /*Activity(
-      imageUrl:
-          'https://www.whattopack.com/wp-content/uploads/sites/34/2019/06/The-Ultimate-Cairo-Packing-List.jpg',
+  Activity(
+      imageUrl: 'assets/images/e5.jpg',
       type: 'Explore the pyramids',
       name: 'Top Rated Private Trip to Giza Pyramids,Sphinx,Camel-Ride,Lunch',
+      country: 'Egypt',
       price: 24,
       rating: 5,
       startTime: ['9:00 am', '5 pm']),
   Activity(
-      imageUrl:
-          'https://media-cdn.tripadvisor.com/media/photo-s/0d/4e/eb/9c/sunset-by-the-nile-river.jpg',
+      imageUrl: 'assets/images/e4.jpg',
       type: 'Trip on the Nile',
       name: 'Felucca Sailing trip on the Nile in Cairo',
+      country: 'Egypt',
       price: 15,
       rating: 3,
       startTime: ['5:00 pm', '6:00 pm']),
+
   Activity(
-    imageUrl:
-        'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/b3/07/25.jpg',
-    type: 'Visit Luxor Temples',
-    name: 'Full Day Tour to East and West Banks of Luxor',
-    price: 85,
-    rating: 5,
-  ),
-  Activity(
-    imageUrl:
-        'https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/0e/1d/54.jpg',
+    imageUrl: 'assets/images/e3.jpg',
     type: 'Balloons Ride',
     name: 'Hot Air Balloons Ride in Luxor Egypt',
+    country: 'Egypt',
     price: 90,
     rating: 4,
+    startTime: ['6:00 am', '7:00 pm'],
   ),
   Activity(
-    imageUrl:
-        'https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/35/f3/20.jpg',
+    imageUrl: 'assets/images/e1.jpg',
     type: 'Horse Riding',
     name: 'Two hours Horse Riding At Amazing Desert',
+    country: 'Egypt',
     price: 30,
     rating: 3,
+    startTime: ['12:00 am', '1:00 pm'],
   ),
   Activity(
-    imageUrl:
-        'https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/35/f3/20.jpg',
+    imageUrl: 'assets/images/e2.jpg',
     type: 'Snorkeling Trip',
     name: 'Tiran Island Full Day Snorkeling Sea Trip',
+    country: 'Egypt',
     price: 40,
     rating: 5,
-  ),*/
+    startTime: ['6:00 am', '7:00 am'],
+  ),
 
   // github
   Activity(
     imageUrl: 'assets/images/stmarksbasilica.jpg',
     name: 'St. Mark\'s Basilica',
     type: 'Sightseeing Tour',
+    country: 'France',
     startTime: ['9:00 am', '11:00 am'],
     rating: 5,
     price: 30,
@@ -74,14 +71,16 @@ List<Activity> activities = [
     imageUrl: 'assets/images/gondola.jpg',
     name: 'Walking Tour and Gonadola Ride',
     type: 'Sightseeing Tour',
+    country: 'Brazil',
     startTime: ['11:00 pm', '1:00 pm'],
     rating: 4,
     price: 210,
   ),
   Activity(
-    imageUrl: 'assets/images/murano.jpg',
+    imageUrl: 'assets/images/murano.jpeg',
     name: 'Murano and Burano Tour',
     type: 'Sightseeing Tour',
+    country: 'India',
     startTime: ['12:30 pm', '2:00 pm'],
     rating: 3,
     price: 125,
